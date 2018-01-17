@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Idade Cachorro</string>
+    <string name="calcular_idade">Descobrir Idade</string>
+    <string name="texto_idade">Digite a idade do seu cãozinho, para descobrir a idade dele em anos humanos.</string>
+</resources>
