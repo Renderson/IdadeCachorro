@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText caixaTexto;
     private TextView resultadoIdade;
-    private Button boaoIdade;
+    private Button botaoIdade;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         caixaTexto = (EditText)findViewById(R.id.caixaTextoId);
-        boaoIdade = (Button)findViewById(R.id.botaoIdadeId);
+        botaoIdade = (Button)findViewById(R.id.botaoIdadeId);
         resultadoIdade = (TextView)findViewById(R.id.resultadoIdadeId);
 
-        boaoIdade.setOnClickListener(new View.OnClickListener() {
+        botaoIdade.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
